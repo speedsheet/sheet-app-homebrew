@@ -1,0 +1,782 @@
+# Homebrew
+
+
+# Summary
+
+
+### What Is Homebrew?
+
+Package installer for Max OS X.
+
+
+### Links
+
+Official Site:
+<l>https://brew.sh/<>
+
+Source / Git:
+<l>https://github.com/Homebrew/brew<>
+
+
+
+### Install Directory
+
+<cb>/usr/local<>
+
+App:
+
+<cb>/usr/local/Homebrew<>
+
+Formulas / Kegs:
+
+<cb>/usr/local/Cellar<>
+@
+@ installation folder, location
+
+
+
+### Install Homebrew
+
+In Terminal:
+
+<cb>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"<>
+
+
+Installs Brew on your system.
+@
+@ install brew
+
+
+
+# Brew Commands
+@
+@ how to, how-to, brew
+
+
+
+### Brew - Configuration
+
+<cb>brew config<>
+
+Shows Brew's configuration.
+@
+@ information
+@ homebrew, show, display
+
+
+
+### Brew - Help
+
+<cb>brew help<>
+@
+@ homebrew, show, display
+
+
+
+
+### Brew - Help On Command
+
+<cb>brew help <v>command<><>
+
+
+Shows help on a command.
+
+
+Example:
+
+<cb>brew help list<>
+@
+@ homebrew, show, display
+
+
+
+### Brew - Update
+
+<cb>brew update<>
+
+
+Update Brew itself.
+@
+@ homebrew
+
+
+
+### Brew - Trouble Shoot
+
+<cb>brew doctor<>
+
+
+
+# Package Commands
+@
+@ how to, how-to, brew
+
+
+
+### Package - Install
+
+<cb>brew install<>
+@
+@ uninstall
+
+
+
+### Package - Install Version
+
+<cb>brew install <v>package_name<>@<v>v<>.<v>v<>.<v>v<><>
+
+
+
+### Package - Link - Create
+
+<cb>brew link <v>package_name<><>
+@
+@ link
+
+
+
+### Package - Link - Remove
+
+<cb>brew unlink <v>package_name<><>
+@
+@ unlink, delete, rm
+
+
+
+### Package - Link - Switch
+
+<cb>brew switch <v>package_name<> <v>v<>.<v>v<>.<v>v<><>
+@
+@ switch
+
+
+
+### Package - List Installed Versions
+
+<cb>brew list --versions <v>package_name<><>
+
+
+Shows installed versions of <c><v>package_name<><>.
+
+
+Example:
+
+<cb>brew list --versions python<>
+@
+@ show, display, view, --versions
+
+
+
+### Package - List Versions
+
+<cb>brew search <v>package_name<><>
+
+
+Shows available versions of a package.
+
+
+Example:
+
+<cb>brew search python<>
+@
+@ search
+@ show, display, view
+
+
+
+### Package - Uninstall
+
+<cb>brew uninstall <v>package_name<><>
+
+<cb>brew install <v>package_name<>@<v>v<>.<v>v<>.<v>v<><>
+@
+@ uninstall, install
+
+
+
+### Package - Uninstall Old Versions
+
+<cb>brew cleanup <v>package_name<><>
+
+
+Removes outdated verisons of the package.
+@
+@ remove, cleanup
+
+
+
+### Package - Upgrade
+
+<cb>brew upgrade <v>package_name<><>
+@
+@ update
+
+
+
+### Package - Upgrade All
+
+<cb>brew upgrade<>
+@
+@ Update
+
+
+
+### Package - View Description
+
+<cb>brew desc <v>package_name<><>
+@
+@ show, display, desc
+
+
+
+### Package - View Details
+
+<cb>brew info <v>package_name<><>
+@
+@ show, display, information, info
+
+
+
+### Package - View Formula
+
+<cb>brew cat <v>package_name<><>
+@
+@ show, display, cat
+
+
+
+### Package - View Homepage
+
+<cb>brew home <v>package_name<><>
+
+
+Opens the official homepage for the package.
+
+
+Example:
+
+<cb>brew home python
+
+<#># Opens <l>https://www.python.org<><><>
+@
+@ view, show, browser, home page
+
+
+
+### Package - View Package Files
+
+<cb>brew list <v>package_name<><>
+
+
+Shows the directories and files installed for that package.
+
+
+Example:
+
+<cb>brew list python<>
+@
+@ show, display
+
+
+
+### Packages - List - Installed
+
+<cb>brew list<>
+
+
+List all installed packages.
+@
+@ show, display
+
+
+
+### Packages - List - Installed, Top Level
+
+<cb>brew leaves<>
+
+With Descriptions:
+
+<cb>brew leaves | xargs -n1 brew desc<>
+
+
+List all top level installed packages.
+@
+@ show, display, leaves
+
+
+
+### Packages - List - Outdated
+
+<cb>brew outdated<>
+
+Shows installed packages that can be upgraded to newer versions.
+@
+@ show, display
+
+
+
+### Packages - Search
+
+<cb>brew search <v>search_string<><>
+
+
+Shows all available options for the search string.
+
+
+<cb>brew search python<>
+@
+@ show, display
+
+
+
+### Packages - Update - All
+
+<cb>brew upgrade<>
+
+
+
+# Packages
+
+
+
+### Alt-Tab
+
+Formula:		<c>alt-tab<>
+Page:		<l>https://formulae.brew.sh/cask/alt-tab<>
+
+Github:		<l>https://github.com/lwouis/alt-tab-macos<>
+
+
+Install:
+
+<cb>brew install alt-tab<>
+
+
+
+### Clojure
+
+Forumla: 		<c>clojure<>
+Page:		<l>https://formulae.brew.sh/formula/clojure<>
+
+
+Install:
+
+<cb>brew install clojure<>
+
+
+
+### Image Magick (Image Converter)
+
+Forumla: 		<c>imagemagick<>
+Page:		<l>https://formulae.brew.sh/formula/imagemagick<>
+
+
+Install:
+
+<cb>brew install imagemagick<>
+@
+@ imagemagick
+
+
+
+### FS Watch
+
+Reloads a browser when a file changes.
+
+
+Forumla: 		<c>fswatch<>
+Page:		<l>https://formulae.brew.sh/formula/fswatch<>
+
+
+Install:
+
+<cb>brew install fswatch<>
+
+
+Usage:
+
+	Run <c><v>run_command<><> whenever one of these files change:
+
+<cb>fswatch <v>file_name<> <v>file_name_2<> ... | (while read; <v>run_command<>; done)<>
+@
+@ fswatch
+
+
+
+### Pure-ftpd (FTP Server)
+
+Forumla: 		<c>pure-ftpd<>
+Page:		<l>https://formulae.brew.sh/formula/pure-ftpd<>
+
+
+Install:
+
+<cb>brew install pure-ftpd<>
+
+
+
+Start:
+
+<cb>brew services start pure-ftpd<>
+@
+@ pure-ftpd
+
+
+
+### Httpie
+
+User-friendly cURL replacement (command-line HTTP client).
+
+
+Forumla: 		<c>httpie<>
+Page:		<l>https://formulae.brew.sh/formula/httpie<>
+
+
+Install:
+
+<cb>brew install httpie<>
+
+
+
+### libav (Video Converter)
+
+Converts files in multiple streams to one file.
+Used by Firefox plugin "Video Converter"
+
+Forumla: 		<c>libav<>
+Page:		<l>https://formulae.brew.sh/formula/libav<>
+
+
+Install:
+
+<cb>brew install libav<>
+@
+@ libav, firefox, video converter, conversion
+
+
+
+### Maven
+
+Forumla: 		<c>maven<>
+Page:		<l>https://formulae.brew.sh/formula/maven<>
+
+
+Install:
+
+<cb>brew install maven<>
+@
+@ maven, mvn
+
+
+
+### MPV Player
+
+Media player based on MPlayer and mplayer2
+
+Forumla: 		<c>mpv<>
+Page:		<l>https://formulae.brew.sh/formula/mpv<>
+
+
+Install:
+
+<cb>brew install mpv<>
+@
+@ mpv
+
+
+
+### MyCLI
+
+Mysql CLI Tool
+
+
+Forumla: 		<c>mycli<>
+Page:		<l>https://formulae.brew.sh/formula/mycli<>
+
+Official:		<l>https://www.mycli.net/<>
+Source:		<l>https://github.com/dbcli/mycli<>
+
+
+Install:
+
+<cb>brew install mycli<>
+@
+@ mycli
+
+
+
+### MySql
+
+Forumla: 		<c>mysql<>
+Page:		<l>https://formulae.brew.sh/formula/mysql<>
+			<l>https://formulae.brew.sh/formula/mysql@5.7<>
+
+
+Install Version 5:
+
+<cb>brew install mysql@5.7<>
+
+Install Version 8:
+
+<cb>brew install mysql@8.0<>
+@
+@ mysql
+
+
+
+### Node / NPM (Node Package Manager)
+
+Forumla: 		<c>node<>
+Page:		<l>https://formulae.brew.sh/formula/node<>
+
+
+Install:
+
+<cb>brew install node<>
+@
+@ node
+
+
+
+### Pandoc
+
+Document Converter
+- Converts 70 different document types
+
+Forumla: 		<c>pandoc<>
+Page:		<l>https://formulae.brew.sh/formula/pandoc<>
+Official:		<l>https://pandoc.org/<>
+
+
+Install:
+
+<cb>brew install pandoc<>
+@
+@ pandoc
+
+
+
+### Pianobar (Pandora Player)
+
+Plays Pandora music.
+
+
+Forumla: 		<c>pianobar<>
+Page:		<l>https://formulae.brew.sh/formula/pianobar<>
+
+
+Install:
+
+<cb>brew install pianobar<>
+@
+@ pianobar
+
+
+
+### PgCLI (Postgres CLI)
+
+CLI for Postgres with auto-completion and syntax highlighting.
+
+
+Forumla: 		<c>pgcli<>
+Page:		<l>https://formulae.brew.sh/formula/pgcli<>
+
+Official:		<l>https://www.pgcli.com/<>
+Source:		<l>https://github.com/dbcli/pgcli<>
+
+Install:
+
+<cb>brew install pgcli<>
+
+Use:
+
+<cb>postgresql CLI<>
+@
+@ pgcli
+
+
+
+### PGP
+
+Forumla: 		<c>gnupg<>
+Page:		<l>https://formulae.brew.sh/formula/gnupg<>
+
+
+Install:
+
+<cb>brew install gnupg<>
+@
+@ gnupg
+
+
+
+### PS Tree
+
+Forumla: 		<c>pstree<>
+Page:		<l>https://formulae.brew.sh/formula/pstree<>
+
+
+Install:
+
+<cb>brew install pstree<>
+@
+@ pstree
+
+
+
+### PyQt
+
+Forumla: 		<c>pyqt<>
+Page:		<l>https://formulae.brew.sh/formula/pyqt<>
+
+
+Install:
+
+<cb>brew install pyqt<>
+
+Test Installation:
+
+<cb>brew test pyqt<>
+
+Show Manual Install Steps:
+
+<cb>brew info pyqt<>
+@
+@ pyqt
+
+
+
+### PyQt5
+
+Python UI Library
+
+
+Forumla: 		<c>pyqt5<>
+Page:		<l>https://formulae.brew.sh/formula/pyqt5<>
+
+
+Requires / Dependencies:
+
+XCode
+	Dependancies (will install): Python 3, SIP, QT
+
+
+Install:
+
+<cb>brew install pyqt5<>
+
+Will Also Install:
+
+<cb>Python3
+SIP
+QT<>
+@
+@ pyqt5, sip, qt
+
+
+
+### RSync
+
+Forumla: 		<c>rsync<>
+Page:		<l>https://formulae.brew.sh/formula/rsync<>
+
+
+Install:
+
+<cb>brew install rsync<>
+
+
+
+### SBT (Scala Build Tool)
+
+Forumla: 		<c>sbt<>
+Page:		<l>https://formulae.brew.sh/formula/sbt<>
+
+
+Install:
+
+<cb>brew install sbt<>
+@
+@ sbt
+
+
+
+### SIP (C++ Compiler)
+
+Library for compiling C, C++ bindings.
+
+Note:
+Installed with PyQt
+
+Forumla: 		<c>sip<>
+Page:		<l>https://formulae.brew.sh/formula/sip<>
+
+
+Install:
+
+<cb>brew install sip<>
+@
+@ sip
+
+
+
+### Unison
+
+A commandline folder sync tool.
+
+Forumla: 		<c>unison<>
+Page:		<l>https://formulae.brew.sh/formula/unison<>
+
+
+Install:
+
+<cb>brew install unison<>
+@
+@ unison
+
+
+
+### Yarn
+
+A web package manager.
+
+Forumla: 		<c>yarn<>
+Page:		<l>https://formulae.brew.sh/formula/yarn<>
+
+
+Install:
+
+<cb>brew install yarn<>
+@
+@ yarn
+
+
+
+### Zsh
+
+Programmer Replacement Shell for Bash.
+
+Forumla: 		<c>zsh<>
+Page:		<l>https://formulae.brew.sh/formula/zsh<>
+
+
+Install:
+
+<cb>brew install zsh<>
+@
+@ zsh
+
+
+
+# Glossary
+@
+@ Terms
+
+
+
+### Homebrew Cask
+Built-in extension of Homebrew that installs MacOS GUI apps.
+
+Github:
+<l>https://github.com/Homebrew/homebrew-cask<>
+
