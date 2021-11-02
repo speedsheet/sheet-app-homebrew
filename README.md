@@ -15,9 +15,12 @@ The sheet covers all basic operations. It needs to be reviewed for consistency a
 
 # Contribute
 
-Have something you'd like to see in here, submit it!
+Have something you'd like to see in the speedsheet? Submit it!
 
-Please feel free to submit updates! These are currently uploaded manually. Expect delays before seeing the updates online.
+Add it to the '.stash' document and submit a pull request here.
+
+Guidelines:
+https://speedsheet.io/s/speedsheet_guidelines
 
 SpeedSheet Format:  
 https://speedsheet.io/s/stash
