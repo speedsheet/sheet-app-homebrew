@@ -677,6 +677,27 @@ QT<>
 
 
 
+### Python3
+
+Python Programming Language
+
+
+Forumla: 		<c>python@3.10<>
+Page:		<l>https://formulae.brew.sh/formula/python@3.10<>
+
+
+Install:
+
+<cb>brew install python@3.10<>
+
+Update:
+
+<cb>brew upgrade python@3.10<>
+@
+@ python3
+
+
+
 ### RSync
 
 Forumla: 		<c>rsync<>
