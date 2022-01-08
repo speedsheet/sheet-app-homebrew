@@ -1,5 +1,5 @@
 # <#>Homebrew<> SpeedSheet
-<b>What you need, faster.<>
+<b>Find what you need, faster.<>
 
 
 # Summary
@@ -405,6 +405,18 @@ Usage:
 
 
 
+### GCC (Gnu Compiler Collection)
+
+Forumla: 		<c>gcc<>
+Page:		<l>https://formulae.brew.sh/formula/gcc<>
+
+
+Install:
+
+<cb>brew install gcc<>
+
+
+
 ### Pure-ftpd (FTP Server)
 
 Forumla: 		<c>pure-ftpd<>
@@ -707,6 +719,18 @@ Page:		<l>https://formulae.brew.sh/formula/rsync<>
 Install:
 
 <cb>brew install rsync<>
+
+
+
+### Rust
+
+Forumla: 		<c>rust<>
+Page:		<l>https://formulae.brew.sh/formula/rust<>
+
+
+Install:
+
+<cb>brew install rust<>
 
 
 
