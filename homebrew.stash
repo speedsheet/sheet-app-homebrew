@@ -706,7 +706,28 @@ Update:
 
 <cb>brew upgrade python@3.10<>
 @
-@ python3
+@ python3, py3
+
+
+
+### Python3-tk
+
+Python Programming Language
+
+
+Forumla: 		<c>python-tk@3.10<>
+Page:		<l>https://formulae.brew.sh/formula/python-tk@3.10<>
+
+
+Install:
+
+<cb>brew install python-tk@3.10<>
+
+Update:
+
+<cb>brew upgrade python-tk@3.10<>
+@
+@ python3, py3, tk, tcl, ttk
 
 
 
@@ -764,6 +785,22 @@ Install:
 <cb>brew install sip<>
 @
 @ sip
+
+
+
+### TCL TK
+
+Tool Command Line
+
+Forumla: 		<c>tcl-tk<>
+Page:		<l>https://formulae.brew.sh/formula/tcl-tk<>
+
+
+Install:
+
+<cb>brew install tcl-tk<>
+@
+@ python3, py3, tool command language
 
 
 
