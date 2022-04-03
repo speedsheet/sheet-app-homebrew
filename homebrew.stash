@@ -209,7 +209,10 @@ Removes outdated verisons of the package.
 
 ### Package - Upgrade
 
-<cb>brew upgrade <v>package_name<><>
+<cb>brew install <v>package_name<><>
+
+
+Just use <c>install<> to upgrade an existing package.
 @
 @ update
 
@@ -343,10 +346,10 @@ Shows all available options for the search string.
 
 ### Alt-Tab
 
-Formula:		<c>alt-tab<>
-Page:		<l>https://formulae.brew.sh/cask/alt-tab<>
-
-Github:		<l>https://github.com/lwouis/alt-tab-macos<>
+<table><col>Formula<><col><c>alt-tab<><>
+<col>Page<><col><l>https://formulae.brew.sh/cask/alt-tab<><>
+<col> <>
+<col>Github<><col><l>https://github.com/lwouis/alt-tab-macos<><><>
 
 
 Install:
@@ -357,8 +360,8 @@ Install:
 
 ### Clojure
 
-Forumla: 		<c>clojure<>
-Page:		<l>https://formulae.brew.sh/formula/clojure<>
+<table><col>Forumla<><col><c>clojure<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/clojure<><><>
 
 
 Install:
@@ -367,10 +370,48 @@ Install:
 
 
 
+### FD (Find)
+
+A simple, fast and user-friendly alternative to find.
+
+<table><col>Forumla<><col><c>fd<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/fd<><><>
+
+
+Install:
+
+<cb>brew install fd<>
+
+
+
+### FS Watch
+
+Reloads a browser when a file changes.
+
+
+<table><col>Forumla<><col><c>fswatch<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/fswatch<><><>
+
+
+Install:
+
+<cb>brew install fswatch<>
+
+
+Usage:
+
+Run <c><v>run_command<><> whenever one of these files change:
+
+<cb>fswatch <v>file_name<> <v>file_name_2<> ... | (while read; <v>run_command<>; done)<>
+@
+@ fswatch
+
+
+
 ### Image Magick (Image Converter)
 
-Forumla: 		<c>imagemagick<>
-Page:		<l>https://formulae.brew.sh/formula/imagemagick<>
+<table><col>Forumla<><col><c>imagemagick<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/imagemagick<><><>
 
 
 Install:
@@ -381,34 +422,10 @@ Install:
 
 
 
-### FS Watch
-
-Reloads a browser when a file changes.
-
-
-Forumla: 		<c>fswatch<>
-Page:		<l>https://formulae.brew.sh/formula/fswatch<>
-
-
-Install:
-
-<cb>brew install fswatch<>
-
-
-Usage:
-
-	Run <c><v>run_command<><> whenever one of these files change:
-
-<cb>fswatch <v>file_name<> <v>file_name_2<> ... | (while read; <v>run_command<>; done)<>
-@
-@ fswatch
-
-
-
 ### GCC (Gnu Compiler Collection)
 
-Forumla: 		<c>gcc<>
-Page:		<l>https://formulae.brew.sh/formula/gcc<>
+<table><col>Forumla<><col><c>gcc<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/gcc<><><>
 
 
 Install:
@@ -419,8 +436,8 @@ Install:
 
 ### Pure-ftpd (FTP Server)
 
-Forumla: 		<c>pure-ftpd<>
-Page:		<l>https://formulae.brew.sh/formula/pure-ftpd<>
+<table><col>Forumla<><col><c>pure-ftpd<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pure-ftpd<><><>
 
 
 Install:
@@ -442,8 +459,8 @@ Start:
 User-friendly cURL replacement (command-line HTTP client).
 
 
-Forumla: 		<c>httpie<>
-Page:		<l>https://formulae.brew.sh/formula/httpie<>
+<table><col>Forumla<><col><c>httpie<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/httpie<><><>
 
 
 Install:
@@ -457,8 +474,8 @@ Install:
 Converts files in multiple streams to one file.
 Used by Firefox plugin "Video Converter"
 
-Forumla: 		<c>libav<>
-Page:		<l>https://formulae.brew.sh/formula/libav<>
+<table><col>Forumla<><col><c>libav<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/libav<><><>
 
 
 Install:
@@ -471,8 +488,8 @@ Install:
 
 ### Maven
 
-Forumla: 		<c>maven<>
-Page:		<l>https://formulae.brew.sh/formula/maven<>
+<table><col>Forumla<><col><c>maven<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/maven<><><>
 
 
 Install:
@@ -487,8 +504,8 @@ Install:
 
 Media player based on MPlayer and mplayer2
 
-Forumla: 		<c>mpv<>
-Page:		<l>https://formulae.brew.sh/formula/mpv<>
+<table><col>Forumla<><col><c>mpv<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/mpv<><><>
 
 
 Install:
@@ -504,11 +521,11 @@ Install:
 Mysql CLI Tool
 
 
-Forumla: 		<c>mycli<>
-Page:		<l>https://formulae.brew.sh/formula/mycli<>
-
-Official:		<l>https://www.mycli.net/<>
-Source:		<l>https://github.com/dbcli/mycli<>
+<table><col>Forumla<><col><c>mycli<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/mycli<><>
+<col> <>
+<col>Official<><col><l>https://www.mycli.net/<><>
+<col>Source<><col><l>https://github.com/dbcli/mycli<><><>
 
 
 Install:
@@ -521,9 +538,9 @@ Install:
 
 ### MySql
 
-Forumla: 		<c>mysql<>
-Page:		<l>https://formulae.brew.sh/formula/mysql<>
-			<l>https://formulae.brew.sh/formula/mysql@5.7<>
+<table><col>Forumla<><col><c>mysql<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/mysql<><>
+<col><><col><l>https://formulae.brew.sh/formula/mysql@5.7<><><>
 
 
 Install Version 5:
@@ -540,8 +557,8 @@ Install Version 8:
 
 ### Node / NPM (Node Package Manager)
 
-Forumla: 		<c>node<>
-Page:		<l>https://formulae.brew.sh/formula/node<>
+<table><col>Forumla<><col><c>node<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/node<><><>
 
 
 Install:
@@ -557,9 +574,9 @@ Install:
 Document Converter
 - Converts 70 different document types
 
-Forumla: 		<c>pandoc<>
-Page:		<l>https://formulae.brew.sh/formula/pandoc<>
-Official:		<l>https://pandoc.org/<>
+<table><col>Forumla<><col><c>pandoc<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pandoc<><>
+<col>Official<><col><l>https://pandoc.org/<><><>
 
 
 Install:
@@ -575,8 +592,8 @@ Install:
 Plays Pandora music.
 
 
-Forumla: 		<c>pianobar<>
-Page:		<l>https://formulae.brew.sh/formula/pianobar<>
+<table><col>Forumla<><col><c>pianobar<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pianobar<><><>
 
 
 Install:
@@ -592,11 +609,11 @@ Install:
 CLI for Postgres with auto-completion and syntax highlighting.
 
 
-Forumla: 		<c>pgcli<>
-Page:		<l>https://formulae.brew.sh/formula/pgcli<>
-
-Official:		<l>https://www.pgcli.com/<>
-Source:		<l>https://github.com/dbcli/pgcli<>
+<table><col>Forumla<><col><c>pgcli<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pgcli<><>
+<col> <>
+<col>Official<><col><l>https://www.pgcli.com/<><>
+<col>Source<><col><l>https://github.com/dbcli/pgcli<><><>
 
 Install:
 
@@ -612,8 +629,8 @@ Use:
 
 ### PGP
 
-Forumla: 		<c>gnupg<>
-Page:		<l>https://formulae.brew.sh/formula/gnupg<>
+<table><col>Forumla<><col><c>gnupg<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/gnupg<><><>
 
 
 Install:
@@ -626,8 +643,8 @@ Install:
 
 ### PS Tree
 
-Forumla: 		<c>pstree<>
-Page:		<l>https://formulae.brew.sh/formula/pstree<>
+<table><col>Forumla<><col><c>pstree<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pstree<><><>
 
 
 Install:
@@ -640,8 +657,8 @@ Install:
 
 ### PyQt
 
-Forumla: 		<c>pyqt<>
-Page:		<l>https://formulae.brew.sh/formula/pyqt<>
+<table><col>Forumla<><col><c>pyqt<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pyqt<><><>
 
 
 Install:
@@ -665,8 +682,8 @@ Show Manual Install Steps:
 Python UI Library
 
 
-Forumla: 		<c>pyqt5<>
-Page:		<l>https://formulae.brew.sh/formula/pyqt5<>
+<table><col>Forumla<><col><c>pyqt5<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pyqt5<><><>
 
 
 Requires / Dependencies:
@@ -694,17 +711,13 @@ QT<>
 Python Programming Language
 
 
-Forumla: 		<c>python@3.10<>
-Page:		<l>https://formulae.brew.sh/formula/python@3.10<>
+<table><col>Forumla<><col><c>python@3.10<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/python@3.10<><><>
 
 
-Install:
+Install / Update:
 
 <cb>brew install python@3.10<>
-
-Update:
-
-<cb>brew upgrade python@3.10<>
 @
 @ python3, py3
 
@@ -715,17 +728,13 @@ Update:
 Python Programming Language
 
 
-Forumla: 		<c>python-tk@3.10<>
-Page:		<l>https://formulae.brew.sh/formula/python-tk@3.10<>
+<table><col>Forumla<><col><c>python-tk@3.10<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/python-tk@3.10<><><>
 
 
-Install:
+Install / Update:
 
 <cb>brew install python-tk@3.10<>
-
-Update:
-
-<cb>brew upgrade python-tk@3.10<>
 @
 @ python3, py3, tk, tcl, ttk
 
@@ -733,8 +742,8 @@ Update:
 
 ### RSync
 
-Forumla: 		<c>rsync<>
-Page:		<l>https://formulae.brew.sh/formula/rsync<>
+<table><col>Forumla<><col><c>rsync<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/rsync<><><>
 
 
 Install:
@@ -745,8 +754,8 @@ Install:
 
 ### Rust
 
-Forumla: 		<c>rust<>
-Page:		<l>https://formulae.brew.sh/formula/rust<>
+<table><col>Forumla<><col><c>rust<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/rust<><><>
 
 
 Install:
@@ -757,8 +766,8 @@ Install:
 
 ### SBT (Scala Build Tool)
 
-Forumla: 		<c>sbt<>
-Page:		<l>https://formulae.brew.sh/formula/sbt<>
+<table><col>Forumla<><col><c>sbt<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/sbt<><><>
 
 
 Install:
@@ -773,11 +782,10 @@ Install:
 
 Library for compiling C, C++ bindings.
 
-Note:
-Installed with PyQt
-
-Forumla: 		<c>sip<>
-Page:		<l>https://formulae.brew.sh/formula/sip<>
+<table><col>Forumla<><col><c>sip<>
+<col>Page<><col><l>https://formulae.brew.sh/formula/sip<>
+<col> <>
+<col>Note<><col>Installed with PyQt<><>
 
 
 Install:
@@ -792,8 +800,8 @@ Install:
 
 Tool Command Line
 
-Forumla: 		<c>tcl-tk<>
-Page:		<l>https://formulae.brew.sh/formula/tcl-tk<>
+<table><col>Forumla<><col><c>tcl-tk<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/tcl-tk<><><>
 
 
 Install:
@@ -808,8 +816,8 @@ Install:
 
 A commandline folder sync tool.
 
-Forumla: 		<c>unison<>
-Page:		<l>https://formulae.brew.sh/formula/unison<>
+<table><col>Forumla<><col><c>unison<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/unison<><><>
 
 
 Install:
@@ -824,8 +832,8 @@ Install:
 
 A web package manager.
 
-Forumla: 		<c>yarn<>
-Page:		<l>https://formulae.brew.sh/formula/yarn<>
+<table><col>Forumla<><col><c>yarn<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/yarn<><><>
 
 
 Install:
@@ -840,8 +848,8 @@ Install:
 
 Programmer Replacement Shell for Bash.
 
-Forumla: 		<c>zsh<>
-Page:		<l>https://formulae.brew.sh/formula/zsh<>
+<table><col>Forumla<><col><c>zsh<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/zsh<><><>
 
 
 Install:
