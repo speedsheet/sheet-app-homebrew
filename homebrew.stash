@@ -137,6 +137,14 @@ Update Brew itself.
 
 
 
+### Package - Link - Overwrite
+
+<cb>brew link --overwrite <v>package_name<><>
+@
+@ link, --overwrite
+
+
+
 ### Package - Link - Remove
 
 <cb>brew unlink <v>package_name<><>
@@ -641,20 +649,6 @@ Install:
 
 
 
-### PS Tree
-
-<table><col>Forumla<><col><c>pstree<><>
-<col>Page<><col><l>https://formulae.brew.sh/formula/pstree<><><>
-
-
-Install:
-
-<cb>brew install pstree<>
-@
-@ pstree
-
-
-
 ### PyQt
 
 <table><col>Forumla<><col><c>pyqt<><>
@@ -809,6 +803,18 @@ Install:
 <cb>brew install tcl-tk<>
 @
 @ python3, py3, tool command language
+
+
+
+### Tree
+
+<table><col>Forumla<><col><c>tree<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/tree<><><>
+
+
+Install:
+
+<cb>brew install tree<>
 
 
 
