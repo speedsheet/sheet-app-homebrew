@@ -99,7 +99,7 @@ Example:
 
 Update Brew itself.
 @
-@ homebrew
+@ homebrew, upgrade
 
 
 
@@ -375,6 +375,8 @@ Install:
 Install:
 
 <cb>brew install clojure<>
+@
+@ programming clojure
 
 
 
@@ -442,23 +444,17 @@ Install:
 
 
 
-### Pure-ftpd (FTP Server)
+### Go
 
-<table><col>Forumla<><col><c>pure-ftpd<><>
-<col>Page<><col><l>https://formulae.brew.sh/formula/pure-ftpd<><><>
+<table><col>Forumla<><col><c>go<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/go<><><>
 
 
 Install:
 
-<cb>brew install pure-ftpd<>
-
-
-
-Start:
-
-<cb>brew services start pure-ftpd<>
+<cb>brew install go<>
 @
-@ pure-ftpd
+@ golang, programming language
 
 
 
@@ -491,6 +487,23 @@ Install:
 <cb>brew install libav<>
 @
 @ libav, firefox, video converter, conversion
+
+
+
+### Macfuse
+
+Extends MacOS file handling to 3rd party apps (eg. Veracrypt).
+
+<table><col>Cask<><col><c>macfuse<><>
+<col>Page<><col><l>https://formulae.brew.sh/cask/macfuse<>
+<col>Official<><col><l>https://osxfuse.github.io/<><><>
+
+
+Install:
+
+<cb>brew install --cask macfuse<>
+@
+@ osxfuse, osx fuse, macfuse, mac fuse, file
 
 
 
@@ -560,6 +573,23 @@ Install Version 8:
 <cb>brew install mysql@8.0<>
 @
 @ mysql
+
+
+
+### Neovim
+
+A VIM base edtior that supports modern features.
+
+<table><col>Formula<><col><c>neovim<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/neovim<>
+<col>Official<><col><l>https://neovim.io/<><><>
+
+
+Install:
+
+<cb>brew install neovim<>
+@
+@ vim, editor
 
 
 
@@ -649,6 +679,26 @@ Install:
 
 
 
+### Pure-ftpd (FTP Server)
+
+<table><col>Forumla<><col><c>pure-ftpd<><>
+<col>Page<><col><l>https://formulae.brew.sh/formula/pure-ftpd<><><>
+
+
+Install:
+
+<cb>brew install pure-ftpd<>
+
+
+
+Start:
+
+<cb>brew services start pure-ftpd<>
+@
+@ pure-ftpd
+
+
+
 ### PyQt
 
 <table><col>Forumla<><col><c>pyqt<><>
@@ -713,7 +763,7 @@ Install / Update:
 
 <cb>brew install python@3.10<>
 @
-@ python3, py3
+@ python3, py3, programming laguage,
 
 
 
@@ -834,6 +884,23 @@ Install:
 
 
 
+### Veracrypt
+
+Creates encrypted drives.
+
+<table><col>Cask<><col><c>veracrypt<><>
+<col>Page<><col><l>https://formulae.brew.sh/cask/veracrypt<>
+<col>Official<><col><l>https://veracrypt.fr/en/Home.html<><><>
+
+
+Install:
+
+<cb>brew install --cask veracrypt<>
+@
+@ encryption, privacy
+
+
+
 ### Yarn
 
 A web package manager.
@@ -872,9 +939,55 @@ Install:
 
 
 
+### Cask
+Typically a GUI application.
+
+A cask is similar to a formula and uses the Ruby based DSL (Domain Specific Language).
+Casks may get installed into the <c>/Applications<> directory.
+
+
+
+### Cellar
+The place where Homebrew installs packages (forumlas and casks)
+
+Default Directory:
+
+<cb>/usr/local/Cellar<>
+
+Default Apple Silicon Directory:
+
+<cb>/opt/hombrew/Cellar<>
+
+
+
+### Formula
+A homebrew configuration for installing software.
+
+The configuration is a Ruby based DSL (Domain Specific Language) and includes where to get the software and how to install it.
+
+
+
 ### Homebrew Cask
 Built-in extension of Homebrew that installs MacOS GUI apps.
 
 Github:
 <l>https://github.com/Homebrew/homebrew-cask<>
+
+
+
+### Tap
+A repository for a formula.
+
+The main repository is:
+
+<cb>homebrew/core<>
+
+Third parties can create their own repository.
+
+
+
+
+
+
+
 
